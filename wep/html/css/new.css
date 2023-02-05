@@ -1,0 +1,103 @@
+*{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+    background-image:url("image/mountain.png") ;
+    background-color: black;
+}
+
+.logo{
+    width: 12%;
+    left: 0;
+}
+.header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    width: 90%;
+    align-items: center;
+}
+.header ul li{
+    display: inline;
+    padding: 45px;
+    font-size: 20px;
+}
+.header ul li a{
+    color: bisque;
+    text-decoration: none;
+}
+.header ul li a:hover{
+    color: red;
+    background-color: aliceblue;
+    width: 18px;
+}
+.name{
+    color: wheat;
+    font-size: 35px;
+    padding: 20px;
+    margin-top:90px;
+}
+span{
+    color: red;
+}
+.name h3{
+    color: rgb(70, 69, 69);
+}
+.arjun{
+    position:absolute;
+
+    bottom: 0;
+    right: 100px;
+    width: 35%;
+    height: 550px;
+}
+.button{
+    background-color: azure;
+}
+.about{
+    margin-top:280px;
+    width: 90%;
+    font-size: 30px;
+    color: antiquewhite;
+    min-height: 100vh;
+    padding: 29px;
+
+}
+.third{
+    position: relative;
+    display: flex;
+}
+.imagesection{
+    width: 30%;
+}
+.imagesection img{
+    width: 100%;
+    float: left;
+    height: 550px;
+    border: 10px solid wheat;
+    border-radius: 30px;
+}
+.about-text{
+    padding-bottom: 30px;
+    width: 60%;
+    float: left;
+    margin: 50px;
+    line-height: 2;
+    
+}
+.icon{
+    padding-top: 120px;
+    margin-bottom: 30px;
+;
+}
+
+
+
+
+
+
+
+
+
+
